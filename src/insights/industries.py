@@ -35,3 +35,4 @@ def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
         List of jobs with provided industry
     """
     raise NotImplementedError
+# iniciando o projeto
