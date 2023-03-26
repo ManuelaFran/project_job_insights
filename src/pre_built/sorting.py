@@ -3,6 +3,14 @@ from datetime import date
 from typing import List, Dict
 
 
+jobs = [
+    {"min_salary": 5000, "max_salary": 15000, "date_posted": "2016-08-09"},
+    {"min_salary": 2000, "max_salary": 5000, "date_posted": "2020-10-01"},
+    {"min_salary": 600, "max_salary": 1000, "date_posted": "2022-25-05"},
+    {"min_salary": 2500, "max_salary": 5500, "date_posted": "2002-12-09"},
+]
+
+
 def max_salary_key(job: Dict) -> int:
     """
     Gets max_salary as a sorting key.
